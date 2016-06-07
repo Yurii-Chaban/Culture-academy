@@ -314,6 +314,28 @@
 			}
 		}
 	}
+	// about page 
+	.about-page {
+		.about-content {
+			.about-article-list {
+				li {
+
+					img {
+						float: left;
+						margin: 0 32px 31px 0 !important;
+					}
+					.small-paragraph,
+					.big-paragraph {
+						width: auto;
+						overflow: hidden;
+					}
+					.big-paragraph {
+						clear: both;
+					}
+				}
+			}
+		}
+	}
 }
 @media (min-width: 1200px) {
 	.skdslider {

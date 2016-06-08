@@ -475,32 +475,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .skdslider .slide-desc .content-desc {
     left: 13% !important;
   }
-  /* line 427, ../sass/_media.scss */
+  /* line 426, ../sass/_media.scss */
+  .skdslider .slide-desc .content-desc h1 {
+    font-size: 42px !important;
+    line-height: 55px !important;
+  }
+  /* line 430, ../sass/_media.scss */
+  .skdslider .slide-desc .content-desc p {
+    font-size: 23px !important;
+    line-height: 40px !important;
+  }
+  /* line 436, ../sass/_media.scss */
   .skdslider .slide-navs {
     left: 14% !important;
   }
 
-  /* line 432, ../sass/_media.scss */
+  /* line 441, ../sass/_media.scss */
   .offer-item li {
     margin: 0 !important;
     margin: 0 29px 29px 0 !important;
   }
-  /* line 437, ../sass/_media.scss */
+  /* line 446, ../sass/_media.scss */
   .offer-item li:nth-child(4n+4) {
     margin-right: 0 !important;
   }
 
-  /* line 443, ../sass/_media.scss */
+  /* line 452, ../sass/_media.scss */
   .school-gallery li {
     margin: 0 !important;
     margin: 0 0 16px 0 !important;
   }
-  /* line 448, ../sass/_media.scss */
+  /* line 457, ../sass/_media.scss */
   .school-gallery li:nth-child(3n+3) {
     margin-right: 0 !important;
   }
 
-  /* line 453, ../sass/_media.scss */
+  /* line 462, ../sass/_media.scss */
   .section-title {
     position: relative;
     margin: 0 auto;
@@ -532,7 +542,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     right: 0;
   }
 
-  /* line 458, ../sass/_media.scss */
+  /* line 467, ../sass/_media.scss */
   .school-section .section-title {
     position: relative;
     margin: 0 auto;
@@ -563,12 +573,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .school-section .section-title:after {
     right: 0;
   }
-  /* line 461, ../sass/_media.scss */
+  /* line 470, ../sass/_media.scss */
   .school-section .section-title:before, .school-section .section-title:after {
     width: 32% !important;
   }
 
-  /* line 468, ../sass/_media.scss */
+  /* line 477, ../sass/_media.scss */
   .blog-section .section-title {
     position: relative;
     margin: 0 auto;
@@ -599,43 +609,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .blog-section .section-title:after {
     right: 0;
   }
-  /* line 471, ../sass/_media.scss */
+  /* line 480, ../sass/_media.scss */
   .blog-section .section-title:before, .blog-section .section-title:after {
     width: 43% !important;
   }
-  /* line 478, ../sass/_media.scss */
+  /* line 487, ../sass/_media.scss */
   .blog-section .blog-list li::nth-child(n+2) {
     margin-top: 20px;
   }
 
-  /* line 485, ../sass/_media.scss */
+  /* line 494, ../sass/_media.scss */
   .services-gallery {
     text-align: left !important;
   }
-  /* line 488, ../sass/_media.scss */
+  /* line 497, ../sass/_media.scss */
   .services-gallery .item {
     max-width: 328px !important;
   }
 
-  /* line 495, ../sass/_media.scss */
+  /* line 504, ../sass/_media.scss */
   .contact-page .contact-section .map-container {
     clear: none !important;
   }
-  /* line 498, ../sass/_media.scss */
+  /* line 507, ../sass/_media.scss */
   .contact-page .contact-section .contact-list {
     margin-right: 36px;
   }
-  /* line 502, ../sass/_media.scss */
+  /* line 511, ../sass/_media.scss */
   .contact-page .contact-section .contact-list li span {
     margin: 0 0 24px 0 !important;
   }
 
-  /* line 514, ../sass/_media.scss */
+  /* line 523, ../sass/_media.scss */
   .school-section .school-list .school-gallery li:nth-child(odd) {
     margin-right: 21px !important;
   }
 
-  /* line 524, ../sass/_media.scss */
+  /* line 533, ../sass/_media.scss */
   .blog-section .section-more-title:before, .blog-section .section-more-title:after {
     width: 35% !important;
   }

@@ -40,6 +40,36 @@
 			margin: 10px;
 		}
 	}
+	// blog-more
+	.blog-more-page {
+		.blog-more-content {
+			.float-img {
+				float: left;
+				margin: 0 32px 31px 0;
+			}
+		}
+	}
+	.blog-section {
+		.section-more-title {
+			@include section-title;
+			font-size: 40px !important;
+			line-height: 77px !important;
+
+			&:before,
+			&:after {
+				width: 15% !important;
+			}
+		}
+	}
+	// blog-more
+	.school-more-page {
+		.school-more-content {
+			.float-img {
+				float: left;
+				margin: 0 32px 31px 0;
+			}
+		}
+	}
 }
 @media (min-width: 768px) {
 	// main-page
@@ -138,6 +168,15 @@
 			}
 		}
 	}
+		// blog-more page
+		.blog-section {
+			.section-more-title {
+				&:before,
+				&:after {
+					width: 25% !important;
+				}
+			}
+		}
 }
 @media (min-width: 1024px) {
 	// home page
@@ -225,6 +264,10 @@
 						background-color: #e60012;
 					}
 				}
+				.active {
+			    	color: #fff;
+					background-color: #e60012;
+			    }
 			}
 		}
 	}
@@ -336,6 +379,43 @@
 			}
 		}
 	}
+	// services-more page
+	.services-page {
+		.services-content {
+			.services-article-list {
+				li {
+					img {
+						float: left;
+						margin: 0 32px 31px 0 !important;
+					}
+				}
+			}
+		}
+	}
+	// blog-more page
+	.blog-section {
+		.section-more-title {
+			&:before,
+			&:after {
+				width: 29% !important;
+			}
+		}
+	}
+	// school-more page 
+	.school-section {
+		.wrapper {
+			padding: 0;
+		}
+		.school-gallery {
+			li {
+				margin: 0 15px 16px 0 !important;
+
+				&:nth-child(3n+3) {
+					margin-right: 0 !important;
+				}
+			}
+		}
+	}
 }
 @media (min-width: 1200px) {
 	.skdslider {
@@ -436,6 +516,15 @@
 			    	}
 		    	}
 	    	}
+		}
+	}
+	// blog-more page
+	.blog-section {
+		.section-more-title {
+			&:before,
+			&:after {
+				width: 35% !important;
+			}
 		}
 	}
 }

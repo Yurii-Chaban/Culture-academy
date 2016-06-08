@@ -18,6 +18,10 @@
 
 @import "services-more";
 
+@import "blog-more";
+
+@import "school-more";
+
 @font-face {
     font-family: 'HelveticaNeue';
     src: url('../resorces/HelveticaNeue/helveticaneue_bold-webfont.woff2') format('woff2'),
@@ -53,6 +57,28 @@ body {
   font-family: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+section {
+	margin-top: 36px;
+}
+@mixin wideo-wrapper {
+	display: block;
+	max-width: 658px;
+	max-height: 380px;
+	overflow: hidden;
+	margin: 34px auto 31px;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	text-align: center;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
 @mixin transition {
 	-webkit-transition: all .3s ease-in-out;
@@ -326,6 +352,9 @@ header {
 /*end menu*/
 /*---------------------------------------*/
 /*slider*/
+.slider {
+	margin-top: 0;
+}
 .skdslider{
 	 width:100%;
 	 height: 450px;
@@ -558,7 +587,7 @@ header {
 }
 /*--------------------------------*/
 .school-section {
-	padding: 81px 0 68px;
+	padding: 0 0 68px;
 	
 	.section-title {
 		@include section-title;

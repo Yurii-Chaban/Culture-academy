@@ -162,7 +162,7 @@
 					</li>
 				</ul>
 				<div class="map-container">
-					<iframe src="https://www.google.com/maps/d/embed?mid=1thiPxrQ03Y3mBDxUAlUd7FxYlzo&hl=en_US" width="440" height="235"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175407966844!2d-73.98785308499616!3d40.74844047932796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire+State+Building!5e0!3m2!1suk!2s!4v1465387872747" width="440" height="235" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 
 				<div class="feedback-form">
@@ -274,5 +274,41 @@
 	</script>
 	<script src="js/2.1.3jquery.min.js"></script>
 	<script src="js/skdslide.js"></script>
+	<script>
+		 $(function () {
+	        $('.hidden-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.list-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.footer-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-footer');
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>

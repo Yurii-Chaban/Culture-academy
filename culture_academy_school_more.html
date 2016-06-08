@@ -18,8 +18,7 @@
 	<link rel="stylesheet" href="stylesheets/semantic.css">
 	<link rel="stylesheet" href="stylesheets/dropdown.css">
 	<link rel="stylesheet" href="stylesheets/main-style.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js">
-</script>
+
 </head>
 <body>
 	<header>
@@ -365,26 +364,40 @@
 		});
 	</script>
 	<script>
-		 $(function () { 
-		    $('.hidden-menu a').each(function () {
-		        var location = window.location.href;
-		        var link = this.href; 
-		        if(location == link) {
-		            $(this).addClass('active');
-		        }
-		    });
-		});
+		 $(function () {
+	        $('.hidden-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
 	</script>
 	<script>
-		$(function () { 
-		    $('.list-menu a').each(function () {
-		        var location = window.location.href;
-		        var link = this.href; 
-		        if(location == link) {
-		            $(this).addClass('active');
-		        }
-		    });
-		});
+		$(function () {
+	        $('.list-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.footer-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-footer');
+	            }
+	        });
+	    });
 	</script>
 </body>
 </html>

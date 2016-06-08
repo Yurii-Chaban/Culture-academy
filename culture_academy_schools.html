@@ -390,5 +390,41 @@
 	</script>
 	<script src="js/2.1.3jquery.min.js"></script>
 	<script src="js/skdslide.js"></script>
+	<script>
+		 $(function () {
+	        $('.hidden-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.list-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active');
+	            }
+	        });
+	    });
+	</script>
+	<script>
+		$(function () {
+	        $('.footer-menu li a').each(function () {
+	            var location = window.location.href;
+	            var link = this.href;
+	            var result = location.match(link);
+	            if(result) {
+	            $(this).addClass('active-footer');
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>
